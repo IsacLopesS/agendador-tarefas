@@ -3,13 +3,9 @@ package com.isac.agendadortarefas.infrastructure.security;
 
 import com.isac.agendadortarefas.business.dto.UsuarioDTO;
 import com.isac.agendadortarefas.infrastructure.client.UsuarioClient;
-import com.isac.infrastructure.entity.Usuario;
-import com.isac.infrastructure.repository.UsuarioRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.User;
 import org.springframework.security.core.userdetails.UserDetails;
-import org.springframework.security.core.userdetails.UserDetailsService;
-import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.stereotype.Service;
 
 @Service
